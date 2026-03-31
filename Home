@@ -1,0 +1,22 @@
+<?php
+echo "<h1>Hola Mundo</h1>";
+echo "<p>Esta es una página PHP con una imagen generada por IA.</p>";
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Mundo con Imagen IA</title>
+</head>
+<body>
+
+<?php
+// URL de una imagen generada por IA (puedes reemplazarla por otra)
+$imagenIA = "https://picsum.photos/400/300"; // Ejemplo placeholder
+?>
+
+<img src="<?php echo $imagenIA; ?>" alt="Imagen generada por IA">
+
+</body>
+</html>
